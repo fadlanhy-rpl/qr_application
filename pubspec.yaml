@@ -34,6 +34,21 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  
+  # Networking (untuk connect ke API Vercel)
+  dio: ^5.4.0
+  
+  # State Management & UI Utilities
+  get: ^4.6.6 # Atau provider/bloc jika kamu prefer, tapi GetX cepat untuk pemula/menengah
+  google_fonts: ^6.1.0 # Untuk font yang bagus
+  intl: ^0.19.0 # Untuk format tanggal/uang
+  
+  # Local Storage (Simpan token login)
+  shared_preferences: ^2.2.2 
+  
+  # QR Code
+  qr_flutter: ^4.1.0 # Untuk menampilkan QR (Tiket user)
+  mobile_scanner: ^3.5.5 # Untuk scan QR (Jika ada fitur scan)      # For generating QR codes
 
 dev_dependencies:
   flutter_test:
