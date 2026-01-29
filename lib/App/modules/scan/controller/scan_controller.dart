@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:dio/dio.dart';
-import 'package:qr_application/App/data/api_services.dart'; // Import Dio untuk error handling
+import 'package:qr_application/App/data/providers/api_services.dart'; // Import Dio untuk error handling
 
 class ScanController extends ChangeNotifier {
   final ApiService _apiService = ApiService();
